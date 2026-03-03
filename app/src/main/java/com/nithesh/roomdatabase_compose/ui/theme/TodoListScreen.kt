@@ -196,7 +196,7 @@ fun TodoListScreen(
 
                             scope.launch {
                                 snackbarHostState.showSnackbar(
-                                    message = "Todo deleted",
+                                    message = "Todo deleted Sucessfully",
                                     duration = SnackbarDuration.Short
                                 )
                             }
